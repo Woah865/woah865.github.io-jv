@@ -1,2 +1,3 @@
-console.log('Hello from script.js!');
-alert('This is an alert!');
+console.getElementbyId("button1").addEventListener("click", function() {
+  alert("You clicked the button! :D");
+});
